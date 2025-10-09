@@ -1,0 +1,24 @@
+name: CI - Integração Contínua
+
+on:
+  push:
+    branches: [ main, development, feature/* ]
+  pull_request:
+    branches: [ development ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do código
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Instalar dependências
+        run: npm install
+
+      - name: 🧪 Executar testes automatizados
+        run: npm test -- --watchAll=false
+
+      - name: 🏗️ Gerar build do projeto
+        run: npm run build
