@@ -1,8 +1,13 @@
 function App() {
+  const x = 10;
+  const y = 20;
+
   return (
     <div>
-      <h1>Pipeline com erro </h1>
-      {x + y} {/* ❌ Erro: variáveis não definidas*/}
+      <h1>Pipeline corrigido</h1>
+      {x + y}
     </div>
   );
 }
+
+export default App;
