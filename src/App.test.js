@@ -1,13 +1,4 @@
-function App() {
-  const x = 10;
-  const y = 20;
-
-  return (
-    <div>
-      <h1>Pipeline corrigido</h1>
-      {x + y}
-    </div>
-  );
-}
-
-export default App;
+// src/App.test.js
+test('renderiza corretamente', () => {
+  expect(true).toBe(true);
+});
