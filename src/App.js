@@ -8,6 +8,7 @@ function App() {
         <p>Este projeto demonstra a aplicação dos conceitos de DevOps, CI e CD.</p>
         <p><b>Alunos:</b> Iego Sérgio, José André, Karina Lopes e Luan Serrão</p>
         <p><b>Professor:</b> Walter Viana</p>
+        <p><b>UFAM</b>ICET - ITACOATIARA</p>
       </header>
     </div>
   );
