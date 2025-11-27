@@ -10,4 +10,4 @@
 - [ ] Pipeline CI passou
 
 **Auditor:** @seu-usuario  
-**Referência:** /mnt/data/Checklist PR - Passo a Passo (3).pdf .
+**Referência:** 
