@@ -21,3 +21,10 @@ NPM
 Git + Git Flow
 
 GitHub
+
+## Stakeholders do Projeto
+
+- Karina Lopes
+- Iêgo Sérgio
+- José André
+- Luan Serrao
